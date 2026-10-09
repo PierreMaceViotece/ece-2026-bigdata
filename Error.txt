@@ -1,1 +1,0 @@
-upload failed: ./users.csv to s3://user-p-maceviot-ece/bronze/users.csv An error occurred (InternalError) when calling the PutObject operation (reached max retries: 2): We encountered an internal error, please try again.
