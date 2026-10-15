@@ -12,6 +12,4 @@ The Onyxia credentials are temporary, so tomorrow the Job would fail with an `Ex
 
 Replace the Job with a Kubernetes CronJob using the same pod template and a schedule such as `0 2 * * *` (every day at 2am). Another option is to trigger the Job from an orchestrator such as Airflow, which also handles retries, dependencies and monitoring.
 
-## Note
 
-The section "Upload (PUT)" could not be completed: `aws s3 cp` returned `InternalError when calling the PutObject operation`, and uploading a file from the Onyxia File explorer failed as well, which points to an issue with the S3 storage of the platform.
